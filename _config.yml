@@ -16,22 +16,20 @@
 
 # Language of your content in 2-letter code, e.g.: en, de.
 # You may also provide a location, e.g.: en-us, de_AT.
-lang:                  en
+lang:                  ru
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 Hydejack Starter Kit
+title:                 Honda Orthia
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  "Best Jekyll Theme by a Mile".
-  **Hydejack** is your presence on the web, featuring a blog, portfolio, and resume.
-  Open `_config.yml` to edit this text.
+  Honda Orkhia website, documentation, technical questions, manuals, reports, history. 
+  Complete knowledge base.
 
-# A shorter description for the sidebar.
+# A shorter description for the sidebar."Best Jekyll Theme by a Mile". Open `_config.yml` to edit this text.
 tagline:               >
-  "Best Jekyll Theme by a Mile".
-  Open `_config.yml` to edit this text.
+  Invisible JDM Legend
 
 # A list of keywords for your blog
 keywords:              []
@@ -50,12 +48,16 @@ author:
 
 # Add links to the sidebar.
 menu:
-  - title:             Example
-    url:               /example/
-  - title:             Documentation
-    url:               https://hydejack.com/docs/
-  - title:             About
-    url:               /about/
+  - title:             О проекте
+    url:               /project/
+  - title:             История
+    url:               /history/
+  # - title: 
+  #   url: 
+  - title:             База знаний
+    url:               /wiki/
+  # - title:             Глоссарий 
+  #   url:               /Glossary/
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
@@ -66,7 +68,7 @@ menu:
 #     url:               /cookies-policy/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2019. All rights reserved. Open `_config.yml` to edit this text.
+copyright:             © 2019. All rights reserved. Honda ORTHIA.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -90,7 +92,7 @@ theme_color:           rgb(25,55,71)
 
 # The string encoding which fonts to fetch from Google Fonts.
 # See: <https://hydejack.com/docs/configuration/>
-google_fonts:          Roboto+Slab:400|Noto+Sans:400,400i,700,700i
+google_fonts:          Montserrat|Noto+Sans:400,400i,700,700i 
 
 # The text font. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
@@ -98,7 +100,7 @@ font:                  Noto Sans, Helvetica, Arial, sans-serif
 
 # The font used for headings. Expects a string that is a valid CSS font-family value.
 # To change font-weight, see _sass/variables.scss
-font_heading:          Roboto Slab, Helvetica, Arial, sans-serif
+font_heading:          Montserrat, Helvetica, Arial, sans-serif
 
 defaults:
   # `jekyll-seo-tag` will mark collection outputs as `BlogPosting`,

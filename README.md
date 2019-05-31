@@ -1,4 +1,4 @@
-# Hydejack Starter Kit
+# Honda Orthia
 
 A quicker, cleaner way to get started blogging with [Hydejack](https://hydejack.com/).
 

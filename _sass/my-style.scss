@@ -1,1 +1,13 @@
 // You can add CSS rules here that will be inlucded in Hydejack's CSS file
+.sidebar-bg.sidebar-overlay::after {
+    background: none; 
+}
+
+.font-active h1, .font-active h2, .font-active h3, .font-active h4, .font-active h5, .font-active h6, .font-active .h1, .font-active .h2, .font-active .h3, .font-active .h4, .font-active .h5, .font-active .h6, .font-active .heading {
+    font-family: Montserrat,Arial,sans-serif;
+}
+
+.sidebar-desc {
+    font-size: 0.8rem;
+    letter-spacing: 4px;
+}
