@@ -1,10 +1,10 @@
 @font-face {
   font-family: 'icomoon';
-  src:  url('fonts/icomoon.eot?l90fft');
-  src:  url('fonts/icomoon.eot?l90fft#iefix') format('embedded-opentype'),
-    url('fonts/icomoon.ttf?l90fft') format('truetype'),
-    url('fonts/icomoon.woff?l90fft') format('woff'),
-    url('fonts/icomoon.svg?l90fft#icomoon') format('svg');
+  src:  url('fonts/icomoon.eot?wfhia4');
+  src:  url('fonts/icomoon.eot?wfhia4#iefix') format('embedded-opentype'),
+    url('fonts/icomoon.ttf?wfhia4') format('truetype'),
+    url('fonts/icomoon.woff?wfhia4') format('woff'),
+    url('fonts/icomoon.svg?wfhia4#icomoon') format('svg');
   font-weight: normal;
   font-style: normal;
 }
@@ -26,6 +26,7 @@
 
 .icon-burger-menu:before {
   content: "\e900";
+  color: #c4c4c4;
 }
 .icon-book:before {
   content: "\e91f";

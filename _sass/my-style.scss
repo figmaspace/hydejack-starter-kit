@@ -11,3 +11,53 @@
     font-size: 0.8rem;
     letter-spacing: 4px;
 }
+
+h1, h2, h3, h4, h5, h6, .h1, .h2, .h3, .h4, .h5, .h6 {
+    font-weight: var(--font-weight-heading);
+    margin: 2rem 0 1rem;
+}
+
+.icon-burger-menu:before {
+    -webkit-text-fill-color: #e12029;
+}
+
+.TopNavMenu-hamburger #line-1 {
+    background-color: #2E2E2E;
+    transition: background 183ms;
+    height: 2px;
+    position: absolute;
+}
+
+.TopNavMenu-hamburger #line-2 {
+    background-color: #2E2E2E;
+    transition: background 183ms;
+    height: 2px;
+    position: absolute;
+}
+
+.TopNavMenu-hamburger #line-3, .TopNavMenu-hamburger #line-4 {
+    height: 2px;
+    transition: background 183ms;
+    position: absolute;
+    width: 0;
+}
+
+.TopNavMenu-hamburger #line-3, .TopNavMenu-hamburger #line-4 {
+    height: 2px;
+    transition: background 183ms;
+    position: absolute;
+    width: 0;
+}
+
+@media (max-width: 1151px) and (min-width: 1024px) {
+	.TopNavMenu-hamburger {
+	    width: 44px;
+	    height: 44px;
+	    right: -48px;
+	    top: -6px;
+	}	
+}
+
+.icon-burger-menu {
+	font-size: 22px;
+}
